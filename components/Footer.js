@@ -14,7 +14,7 @@ export default function Footer({ displaySocial, socialSelection }) {
     return (
       <footer>
         <div className="mx-auto max-w-4xl py-12 text-stone-400 md:flex md:items-center md:justify-between">
-          {socialSelection == 'Personal' && (
+          {/* {socialSelection == 'Personal' && (
             <div className="flex justify-center space-x-6 md:order-2">
               <a
                 href="https://twitter.com/jpvalery"
@@ -94,10 +94,10 @@ export default function Footer({ displaySocial, socialSelection }) {
                 <Unsplash />
               </a>
             </div>
-          )}
+          )} */}
           <div className="mt-8 md:order-1 md:mt-0">
             <p className="text-center text-base">
-              &copy; 1992-{year} Jp Valery. All rights reserved.
+              &copy; 1992-{year} Bishwajit Sarker. All rights reserved.
             </p>
           </div>
         </div>
@@ -109,7 +109,7 @@ export default function Footer({ displaySocial, socialSelection }) {
         <div className="mx-auto max-w-4xl py-12 text-stone-400 md:flex md:items-center md:justify-between">
           <div className="mt-8 md:order-1 md:mt-0">
             <p className="text-center text-base">
-              &copy; 1992-{year} Jp Valery. All rights reserved.
+              &copy; 1992-{year} Bishwajit Sarker. All rights reserved.
             </p>
           </div>
         </div>

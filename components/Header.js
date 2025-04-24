@@ -44,7 +44,7 @@ export default function Header() {
       <div className="mx-auto max-w-4xl text-stone-300">
         <div className="flex items-center justify-between py-4 px-4 md:px-0">
           <div className="cursor-pointer font-mono text-xl font-black uppercase">
-            <Link href="/">JP VALERY</Link>
+            <Link href="/">Bishwajit Sarker</Link>
           </div>
           <Menu className="z-100" as="div">
             <MenuButton className="inline-flex items-center justify-between gap-2 rounded-md py-1.5 pl-4 pr-2 text-sm/6 font-semibold text-white focus:outline-hidden data-hover:bg-stone-800 data-open:bg-stone-800 data-focus:outline-1 data-focus:outline-white">
@@ -69,7 +69,7 @@ export default function Header() {
                   />
                 </Link>
               </MenuItem>
-              <MenuItem>
+              {/* <MenuItem>
                 <Link
                   href="/featured-shots"
                   className="group flex w-full items-center gap-6 rounded-lg py-1.5 px-3 data-focus:bg-stone-200/10"
@@ -135,7 +135,7 @@ export default function Header() {
                     external
                   />
                 </Link>
-              </MenuItem>
+              </MenuItem> */}
             </MenuItems>
           </Menu>
         </div>

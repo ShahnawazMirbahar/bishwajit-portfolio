@@ -1,10 +1,10 @@
-const title = 'Jp Valery - Photographer documenting spaces and people'
+const title = 'Bishwajit Sarker - Photographer documenting spaces and people'
 const description =
   'Selected shots from a photographer relentlessly documenting and exploring spaces and people.'
 const siteUrl = 'https://jpvalery.photo'
 
 const SEO = {
-  titleTemplate: '%s | Jp Valery 📷',
+  titleTemplate: '%s | Bishwajit Sarker 📷',
   defaultTitle: title,
   description: description,
   canonical: siteUrl,
